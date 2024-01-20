@@ -1,0 +1,30 @@
+{
+  "name": "lvglue",
+  "keywords": "lvgl, glue, template, boilerplate, display, touchscreen, hmi",
+  "description": "A very thin lvgl adapter for common displays and microcontrollers",
+  "homepage": "https://github.com/ardnew/lvglue",
+  "authors": [
+    {
+      "name": "ardnew",
+      "email": "andrew@ardnew.com",
+      "url": "https://github.com/ardnew",
+      "maintainer": "true"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ardnew/lvglue.git"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "headers": [
+    "lvglue.hpp"
+  ],
+  "build": {
+    "flags": [
+      "-std=gnu++14",
+      "-DLV_CONF_SKIP",
+      "-DLV_COLOR_DEPTH=32"
+    ]
+  }
+}
