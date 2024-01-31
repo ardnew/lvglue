@@ -22,9 +22,10 @@
   ],
   "build": {
     "flags": [
-      "-std=gnu++14",
+      "-std=gnu++17",
       "-DLV_CONF_SKIP",
-      "-DLV_COLOR_DEPTH=32"
+      "-DLV_COLOR_DEPTH=32",
+      "-Ilib/Adafruit_ZeroDMA"
     ]
   }
 }

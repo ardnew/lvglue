@@ -4,3 +4,6 @@
 [submodule "lib/cronos"]
 	path = lib/cronos
 	url = https://github.com/ardnew/cronos
+[submodule "lib/Adafruit_ZeroDMA"]
+	path = lib/Adafruit_ZeroDMA
+	url = https://github.com/adafruit/Adafruit_ZeroDMA
